@@ -1,18 +1,17 @@
 {
     "python.pythonPath": "/home/alexander/.local/share/virtualenvs/.../bin/python",
-    "python.linting.pylintEnabled": true,
-    "python.linting.pylintPath": "/home/alexander/.local/share/virtualenvs/.../bin/pylint",
     "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.pylintPath": "/home/alexander/.local/share/virtualenvs/.../bin/python",
     "python.testing.pytestEnabled": true,
     "python.testing.pytestArgs": [
+        "-vrs",
         "tests"
     ],
-    "python.venvPath": "/home/alexander/.local/share/virtualenvs/...",
+    "python.testing.nosetestsEnabled": false,
     "[python]": {
         "editor.codeActionsOnSave": {
             "source.organizeImports": true
-        },
-    },
-    "python.testing.unittestEnabled": false,
-    "python.testing.nosetestsEnabled": false,
+        }
+    }
 }
