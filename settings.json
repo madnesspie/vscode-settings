@@ -14,11 +14,13 @@
     "workbench.editor.highlightModifiedTabs": true,
     // Python
     "python.pythonPath": "${workspaceFolder}/.venv/bin/python",
+    "python.sortImports.path": "${workspaceFolder}/.venv/bin/isort",
     "python.linting.enabled": true,
     "python.linting.pylintEnabled": true,
     "python.linting.pylintUseMinimalCheckers": false,
     "python.linting.pylintPath": "${workspaceFolder}/.venv/bin/python",
-    "python.sortImports.path": "${workspaceFolder}/.venv/bin/isort",
+    "python.testing.pytestEnabled": true,
+    "python.testing.pytestPath": "${workspaceFolder}/.venv/bin/pytest",
     "[python]": {
         "editor.codeActionsOnSave": {
             "source.organizeImports": true
